@@ -98,7 +98,7 @@ const Hero = () => {
                 }
               }}
             >
-              <img src="/Profile-Image-BG-Blury-Green.png" className='w-64 h-64 rounded-full' alt="" />
+              <img src="Profile-Image-BG-Blury-Green.png" className='w-64 h-64 rounded-full' alt="" />
             </motion.div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-700 mb-4">
               Hi, I'm{' '}
