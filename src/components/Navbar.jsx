@@ -26,7 +26,7 @@ const Navbar = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}>
-                <div className="w-full py-2 px-4 bg-gradient-to-r from-green-600 hover:from-white hover:to-green-600 cursor-pointer rounded-lg flex items-center justify-center shadow-sm hover:shadow-md">
+                <div className="w-full py-2 px-4  cursor-pointer flex items-center justify-center ">
                     <span className="text-emerald-600  font-bold text-sm flex justify-center items-center gap-2">
                             <svg 
                               xmlns="http://www.w3.org/2000/svg" 
@@ -44,8 +44,8 @@ const Navbar = () => {
                               <rect x="3" y="4" width="18" height="12" rx="2"/>
                             </svg>
                             <Link to="/" className="flex  text-xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-white">
-                                <span className='text-gray-100'>Qai</span>
-                                <span className='text-gray-600'>ser</span>
+                                <span className='text-gray-400'>Qai</span>
+                                <span className='text-gray-800'>ser</span>
                             </Link>
                         </span>
                 </div>
