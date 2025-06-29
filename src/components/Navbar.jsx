@@ -100,7 +100,7 @@ const Navbar = () => {
                   <Link
                     key={item.name}
                     to={item.href}
-                    target={item.href === '/' ? '_self' : '_blank'}
+                    // target={item.href === '/' ? '_self' : '_blank'}
                     rel={item.href === '/' ? undefined : 'noopener noreferrer'}
                     onClick={() => setIsOpen(false)}
                     className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all duration-200 ${
