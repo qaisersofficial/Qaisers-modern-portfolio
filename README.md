@@ -20,7 +20,7 @@ A modern, responsive personal portfolio website built with React and featuring b
 - **Smooth Transitions**: Framer Motion animations for enhanced UX
 - **Accessible**: High contrast ratios and keyboard navigation support
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18** - Modern React with hooks
